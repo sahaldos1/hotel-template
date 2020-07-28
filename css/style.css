@@ -77,8 +77,8 @@ p {
 }
 
 .primary-background {
-  background: #333;
-  color: goldenrod;
+  color: #333;
+  background: goldenrod;
 }
 
 /* Navbar */
@@ -166,4 +166,17 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
 }
