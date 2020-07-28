@@ -121,7 +121,6 @@ p {
 #navbar h1 {
   float: left;
   padding-top: 20px;
-  padding-left: 20px;
 }
 
 #navbar ul {
@@ -171,7 +170,7 @@ p {
 /* Info */
 
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-image {
