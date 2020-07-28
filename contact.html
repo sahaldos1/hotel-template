@@ -3,7 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Welcome to the best hotel on the East Coast"
+    />
+    <meta name="keywords" content="hotel, east, coast, east coast, nyc hotel" />
+    <script
+      src="https://kit.fontawesome.com/ddf8b55688.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>The Hotel | Contact</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">T-H</a></h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="large-heading">
+          <span class="primary-text">Contact</span> us
+        </h1>
+        <p>Please fill out the form below to get to us!</p>
+        <form action="contact.html">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="button-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-info" class="dark-background">
+      <div class="containter">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3> 1345 Fifth Ave, Manhattan, NY</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>646-887-9823</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email</h3>
+          <p>theHotel@email.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>The Hotel &copy; 2020, All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
