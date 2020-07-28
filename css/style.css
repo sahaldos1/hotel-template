@@ -28,6 +28,13 @@ p {
   margin: 10px 0;
 }
 
+/* Utilities */
+.container {
+  margin: auto;
+  max-width: 97%;
+  overflow: auto;
+}
+
 /* Navbar */
 #navbar {
   background: #333;
